@@ -7,7 +7,7 @@ import { AngularFirestore } from '@angular/fire/firestore';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  title = 'cour-app';
+  title = 'cour-app-1';
 
   constructor(private afs: AngularFirestore) {}
   ngOnInit() {
